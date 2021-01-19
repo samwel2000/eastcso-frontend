@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer  from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import ContactUS from './pages/ContactUs';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar/>
+      <Switch>
+        <Route exact path='/Contact-us' component={ContactUS} />
+        <Route exact path='/Blog' component={Blog} />
+        <Route exact path='/About' component={About} />
+        <Route exact path='/' component={Home} />
+        <Redirect to ='/' />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 

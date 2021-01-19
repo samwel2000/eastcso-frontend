@@ -1,0 +1,164 @@
+.hero__container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__text h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 3rem;
+}
+.hero__text p {
+  margin-top: 10px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero__span {
+  color: #2979ff;
+}
+.hero__link {
+  text-decoration: none;
+  color: inherit;
+}
+.hero_button {
+  background: #fff;
+  border-radius: 55px;
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 2px solid #2979ff;
+}
+.hero_button:hover {
+  background: #2979ff;
+  color: #fff;
+}
+.hero__link:hover {
+  color: inherit;
+}
+
+/* Responsive css media queries */
+@media screen and (max-width: 768px) {
+  .hero__container {
+    justify-content: center;
+  }
+  .hero__image {
+    display: none;
+  }
+  .hero__text h1 {
+    margin: 10px 0px;
+    font-size: 27px;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  .hero__text p {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 0;
+    padding-left: 10px;
+  }
+  .btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+/* President section css starts here */
+.president__container {
+  background: #eee;
+  padding: 70px 0;
+}
+.president__section {
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding: 40px 50px;
+}
+.president__welcome {
+  display: flex;
+  z-index: 1;
+  margin-bottom: -70px;
+}
+.president__photo {
+  position: relative;
+  top: -60px;
+  left: -80px;
+  padding: 10px 0px 0px 0px;
+  height: 200px;
+  border-radius: 50%;
+}
+.president__photo img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 10px solid #2979ff;
+}
+.president__note {
+  margin-left: -50px;
+}
+.president__name h2 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.president__name p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.president_text {
+  padding: 0px 20px;
+  z-index: 2;
+  text-align: center;
+}
+.president_text h3 {
+  font-size: 25px;
+  color: #2979ff;
+  font-weight: 300;
+}
+@media screen and (max-width: 991px) {
+  .president__container {
+    padding: 10px 0px;
+  }
+  .president__section {
+    display: flex;
+    flex-direction: column;
+  }
+  .president__welcome {
+    margin: 0px;
+  }
+  .president__name {
+    margin-left: 0px;
+    padding: 0px 0px 0px 10px;
+  }
+  .president__name h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .president__name p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .president__note {
+    margin: 0px;
+  }
+  .president__photo {
+    display: none;
+  }
+  .president_text p {
+    padding: 0px 10px;
+  }
+}
