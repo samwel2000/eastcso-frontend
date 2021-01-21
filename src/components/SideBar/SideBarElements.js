@@ -13,8 +13,8 @@ export const SidebarContainer = styled.aside`
     top:0;
     left:0;
     transition: 0.3s ease-in-out;
-    opacity:${props => props.isOpen};
-    top:${props => props.is0pen};
+    // opacity:${props => props.isOpen};
+    // top:${props => props.is0pen};
 `
 
 export const Icon = styled.div`

@@ -59,7 +59,7 @@ function Footer() {
                 <div className="container">
                     <div className="row">
                         <p>© 2020 Copyright <i>Eastern Africa Statistical Training Centre Students Organizations</i>.
-                        All Rights Reserved  <br /> Designed by <strong>godfreysamwel@eastc.ac.tz</strong></p>
+                        All Rights Reserved  <br /> Designed by <strong>samwel.godfrey@eastc.ac.tz</strong></p>
                     </div>
                 </div>
             </Copyright>

@@ -43,8 +43,8 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="president_text">
-                                    <h3>Welcome aboard !!!</h3>
+                                <div className="president__text">
+                                    <h3>Welcome aboard !</h3>
                                     <p>Thank you for visiting our website, I am delighted to welcome you to EASTCSO. On behalf of the student organization, I would like to invite you to browse our website to see our strengths and advantages.</p>
                                 </div>
                             </div>
@@ -55,10 +55,15 @@ function Home() {
             <section className="ministries__container">
                 <div className="container">
                     <div className="row">
+                    <h1 className="ministries__heading text-center">Our Ministries</h1>
                         <div className="col-md-4">
-                            <a href="#ministry1">Mininstry one</a><br />
-                            <a href="#ministry2">Mininstry two</a><br />
-                            <a href="#ministry3">Mininstry three</a>
+                            <div className="ministry__links">
+                                <a href="#ministry1">Ministry of Finace</a>
+                                <a href="#ministry2">Ministry of Education</a>
+                                <a href="#ministry3">Ministry of Health</a>
+                                <a href="#ministry3">Ministry of Internal affairs</a>
+                                <a href="#ministry3">Ministry of foreign affairs</a>
+                            </div>
                         </div>
                         <div className="col-md-8">
                             <div id="ministry1">
