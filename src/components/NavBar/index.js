@@ -27,16 +27,16 @@ function NavBar() {
                         </NavLink>
                         <Bars onClick={handleHamburgerClick}>{humberger}</Bars>
                         <NavMenu >
-                            <NavLink to='/' menuitem="true">
+                            <NavLink to='/'  menuitem="true">
                                 Home
                             </NavLink>
-                            <NavLink to='/About' menuitem="true">
+                            <NavLink to='/About'  menuitem="true">
                                 About
                             </NavLink>
-                            <NavLink to='/Blog' menuitem="true">
+                            <NavLink to='/Blog'  menuitem="true">
                                 Blog
                             </NavLink>
-                            <NavLink to='/Contact-us' menuitem="true">
+                            <NavLink to='/Contact-us'  menuitem="true">
                                 Contact us
                             </NavLink>
                         </NavMenu>

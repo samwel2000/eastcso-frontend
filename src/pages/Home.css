@@ -76,8 +76,11 @@
 
 /* President section css starts here */
 .president__container {
-  background: #eee;
+  background: #2979ff;
   padding: 70px 0;
+}
+.president__container h1 {
+  color: #fff;
 }
 .president__section {
   border-radius: 50%;
@@ -191,3 +194,13 @@
   opacity: 1;
   transition: 0.2s all ease-in-out;
 }
+.ministries_info {
+  padding: 30px;
+  background-image: url("../assets/ministry_background.jpg");
+  /* background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(170,170,160,1) 100%); */
+  background-attachment: fixed;
+}
+.ministries_info > div {
+  margin-bottom: 50px;
+}
+

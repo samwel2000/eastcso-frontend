@@ -28,6 +28,9 @@ export const NavLink = styled(Link)`
     font-size: 18px;
     font-weight:500;
 
+    &.active {
+        border-bottom: 2px solid #2979FF;
+    }
     ${props => props.menuitem && css`
         margin-left:40px;
   `}
