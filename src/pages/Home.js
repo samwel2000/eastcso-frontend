@@ -3,7 +3,7 @@ import './Home.css'
 import {Link} from 'react-router-dom'
 import {FaLongArrowAltRight} from 'react-icons/fa'
 import Ramani from '../assets/Ramani.jpg'
-import President from '../assets/President.JPG'
+import President from '../assets/president.JPG'
 import Minister from '../assets/minister.JPG'
 import Ministry from '../components/Ministry'
 
